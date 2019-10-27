@@ -8,3 +8,6 @@
 
 ### 何をする： 行われる行為を入力してください。
 
+## 利用イメージ
+![localhost_4200_ (1)](https://user-images.githubusercontent.com/56239597/67637389-9b840880-f91d-11e9-9a5d-57cc50039307.png)
+
