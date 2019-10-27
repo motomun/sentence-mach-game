@@ -1,0 +1,19 @@
+#title {
+    font-size: 60px;
+    color: lightblue;
+    text-align: center;
+}
+
+#result {
+    color: lightcoral;
+    font-size: 30px;
+    text-align: center;
+    border:solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#input-area{
+   text-align: center;
+}

@@ -1,0 +1,39 @@
+<div id="title">
+  <label>{{title}}</label>
+</div>
+
+<div id="input-area">
+  <form [formGroup]="myControl" (ngSubmit)="onSubmit()">
+    <label>名前</label>
+    <div>
+      <input type="text" formControlName="name1">
+      <input type="text" formControlName="name2">
+      <input type="text" formControlName="name3">
+    </div>
+    <div>
+      <label>場所</label>
+    </div>
+    <div>
+      <input type="text" formControlName="place1">
+      <input type="text" formControlName="place2">
+      <input type="text" formControlName="place3">
+    </div>
+    <div>
+      <label>何をする</label>
+    </div>
+    <input type="text" formControlName="what1">
+    <input type="text" formControlName="what2">
+    <input type="text" formControlName="what3">
+    <div>
+      <input type="submit" value="決定">
+    </div>
+  </form>
+</div>
+
+<div id="result">
+    <label>指令：</label>
+    <label>{{name1}} が </label>
+    <label>{{name2}} と </label>
+    <label>{{place}} で </label>
+    <label>{{what}} をする</label>
+  </div>
